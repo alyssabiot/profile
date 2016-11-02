@@ -47,9 +47,43 @@ td {
   padding-bottom: 15px;
 }
 
-.container {
-  width: 600px;
-  margin: 0 auto;
+.container-fluid {
+  width: 90%;
+  margin: 30px auto;
+}
+
+#content {
+  margin-left: 120px;
+}
+
+#sidebar {
+    background-color: #DB730C;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 120px;
+    text-align: center;
+}
+
+#sidebar a {
+  text-decoration: none;
+  color: #B5B9BA;
+  font-weight: 400;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+#sidebar ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+#sidebar li {
+  padding: 30px;
+  font-size: 30px;
 }
 
 .card {
@@ -98,3 +132,5 @@ td {
   width: 150px;
   height: 150px;
 }
+
+
