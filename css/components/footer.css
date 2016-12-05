@@ -17,17 +17,6 @@
   margin: 0;
 }
 
-.share {
-  display:flex;
-  align-items: center;
-  text-align: center;
-  margin: 0;
-}
-
-.share a {
-  padding: 0 20px;
-  font-size: 17px;
-}
 .footer a {
   color: #999999;
   font-style: italic;

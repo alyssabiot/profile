@@ -1,16 +1,10 @@
 .profile-header-wrapper {
-  background: #53443F;
+  background: #E8EFF4;
 }
 
 .profile-header-infos {
   padding: 20px 0;
-  color: white;
-  display: flex;
-  align-items: center;
-}
-
-.profile-header-username {
-  padding: 20px;
+  color: #658087;
 }
 
 .profile-header-infos h1 {
