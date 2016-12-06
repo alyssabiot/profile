@@ -1,6 +1,8 @@
 .about-me {
   display: flex;
   align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .about-left {
@@ -11,26 +13,22 @@
   flex: 1 0 70%;
   display: flex;
   align-items: center;
-  padding-right: 1em;
-  padding-left: 1em;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .photo {
-  margin-right: 1em;
+  margin-right: 10px;
 }
 
 .right-margin {
   margin-right: 20px;
 }
 
-.social {
-  color: #658087;
-}
-
-.social:hover {
-  font-weight: bolder;
-}
-
 .description {
   text-align: justify;
+}
+
+.about-me-list {
+  padding-left: 10px;
 }

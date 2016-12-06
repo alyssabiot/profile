@@ -3,6 +3,7 @@
     <meta charset="utf-8">
     <title>Alyssa Biot</title>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/a9c1ad4992.js"></script>
     <link rel="stylesheet" href="css/style.css">
@@ -21,22 +22,26 @@
 
   <!-- About me -->
   <div class="container">
-    <div class="about-me">
-      <div class="about-left">
-        <h3>ABOUT ME</h3>
-        <p>Age: 27 years old</p>
-        <p>Current residence: Paris, France</p>
-        <p>Email: alyssa.biot@gmail.com</p>
-        <p>Phone: 06 36 54 04 48</p>
-        <a class="social right-margin" href="https://github.com/alyssabiot" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-        <a class="social" href="https://www.linkedin.com/in/alyssa-biot-8833265a" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a>
-      </div>
-      <div class="about-right">
-        <div class="photo">
-          <img src="images/alyssabiot.jpg" alt="" class="avatar">
+    <div class="division">
+      <h4>ABOUT ME</h4>
+      <div class="about-me">
+        <div class="about-left">
+          <ul class="list-unstyled about-me-list">
+            <li><strong>Age:</strong> 27 years old</li>
+            <li><strong>Current residence:</strong> Paris, France</li>
+            <li><strong>Email:</strong> alyssa.biot@gmail.com</li>
+            <li><strong>Phone:</strong> 06 36 54 04 48</li>
+          </ul>
+          <a class="right-margin about-me-list" href="https://github.com/alyssabiot" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+          <a href="https://www.linkedin.com/in/alyssa-biot-8833265a" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a>
         </div>
-        <div class="description">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac nulla diam. Suspendisse orci eros, lacinia et lorem ut, fringilla eleifend quam. Mauris in ligula at arcu imperdiet tristique et a nibh. Vestibulum in facilisis odio. Nam vulputate dignissim arcu vitae commodo. Integer feugiat metus sit amet tellus cursus, sit amet volutpat nibh facilisis. Aliquam tincidunt sapien id odio interdum venenatis. Proin iaculis egestas accumsan. Fusce justo sem, scelerisque quis urna et, porttitor congue risus. Fusce sit amet neque nec mauris eleifend fringilla.</p>
+        <div class="about-right">
+          <div class="photo">
+            <img src="images/alyssabiot.jpg" alt="" class="avatar">
+          </div>
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac nulla diam. Suspendisse orci eros, lacinia et lorem ut, fringilla eleifend quam. Mauris in ligula at arcu imperdiet tristique et a nibh. Vestibulum in facilisis odio. Nam vulputate dignissim arcu vitae commodo. Integer feugiat metus sit amet tellus cursus, sit amet volutpat nibh facilisis.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -44,8 +49,9 @@
 
   <!-- Skills -->
   <div class="container">
-    <div class="skills">
-      <h3>SKILLS</h3>
+    <div class="division skills">
+      <h4>SKILLS</h4>
+      <div class="logos">
         <img src="images/Ruby.png" alt="" class="skill-img">
         <img src="images/Ruby_on_Rails.jpg" alt="" class="skill-img">
         <img src="images/HTML.png" alt="" class="skill-img">
@@ -56,33 +62,46 @@
         <img src="images/git.png" alt="" class="skill-img">
         <img src="images/github.png" alt="" class="skill-img">
         <img src="images/heroku.png" alt="" class="skill-img">
+      </div>
     </div>
   </div>
 
   <!-- Experience -->
   <div class="container">
-    <div class="experience">
-      <h3>EXPERIENCE</h3>
+    <div class="division experience">
+      <h4>EXPERIENCE</h4>
+      <ul class="list-unstyled detailed-list">
+        <li>
+          <p><strong>HYDRATEC Rueil-Malmaison</strong> - Hydraulics Engineer (2013 - 2016)</p>
+          <p>Varied missions in drinkable water and wastewater : water supply and distribution modeling, network audits, construction monitoring.</p>
+        </li>
+      </ul>
     </div>
   </div>
 
    <!-- Education -->
   <div class="container">
-    <div class="education">
-      <h3>EDUCATION</h3>
+    <div class="division education">
+      <h4>EDUCATION</h4>
+      <ul class="list-unstyled detailed-list">
+        <li class="education-border">
+          <p><strong>LE WAGON Paris</strong> - FullStack Developer (2016)</p>
+          <p>9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript, jQuery, SQL, git, GitHub, Heroku and Ruby on Rails. <br>
+          Designed, implemented and shipped to production <a href="https://dont-do-it-yourself.herokuapp.com" target="_blank">a clone of AirBnB</a> and <a href="http://beta.zadl.fr" target="_blank">a Rails prototype of ZA:DL</a>.</p>
+        </li>
+        <li class="education-border">
+          <p><strong>PARIS DIDEROT - PARIS 7 UNIVERSITY</strong> - Environmental and Industrial Engineering Licence & Master's Degree (2010 - 2013)</p>
+          <p>Blablablablablablablabalbalbalba.</p>
+        </li>
+        <li>
+          <p><strong>PARIS NORD - PARIS 13 UNIVERSITY</strong> - Health, Safety and Environment Technology Degree (2008 - 2010)</p>
+          <p>Blablablablablablablabalbalbalba.</p>
+        </li>
+      </ul>
     </div>
   </div>
 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-
-
-    <div class="container footer">
-      <h2>About this page</h2>
-      <div class="footer-content">
-        <p>
-          This page has been coded during the <a href="https://www.lewagon.com/programme">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
-        </p>
-      </div>
-    </div>
   </body>
 </html>
