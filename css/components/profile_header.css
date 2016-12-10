@@ -1,27 +1,31 @@
 .profile-header-wrapper {
-  background: #53443F;
+  background: #EFF1F3;
+  margin-bottom: 10px;
 }
 
 .profile-header-infos {
-  padding: 20px 0;
-  color: white;
-  display: flex;
-  align-items: center;
-}
-
-.profile-header-username {
-  padding: 20px;
+  padding: 40px 20px;
+  color: #51497B;
 }
 
 .profile-header-infos h1 {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: bold;
   margin-top: 0;
 }
 
 .profile-header-infos h2 {
   font-weight: lighter;
-  opacity: 0.4;
-  font-size: 18px;
+  opacity: 0.6;
+  font-size: 20px;
   margin-bottom: 0;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-header-picture {
+  padding: 10px;
 }

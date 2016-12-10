@@ -1,29 +1,25 @@
 @import url("components/avatar.css");
-@import url("components/tabs.css");
 @import url("components/profile_header.css");
-@import url("components/list.css");
-@import url("components/footer.css");
+@import url("components/about-me.css");
+@import url("components/skills.css");
+@import url("components/divisions.css");
+@import url("components/education.css");
 
 body {
   margin: 0;
   font-family: Open-sans, sans-serif;
 }
-h1, h2, h3 {
-  font-family: Raleway, Helvetica, sans-serif;
-}
+
 a {
+  color: #6D9DC5;
+}
+a:hover {
   text-decoration: none;
+  color: #6D9DC5;
+  font-weight: bolder;
 }
 .text-center {
   text-align: center;
 }
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-}
-.list-inline li {
-  display: inline-block;
-}
-.list-inline {
-  list-style: none;
-}
+
+
