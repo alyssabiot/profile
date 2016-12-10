@@ -1,6 +1,7 @@
 .about-me {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -10,23 +11,12 @@
 }
 
 .about-right {
-  flex: 1 0 70%;
-  display: flex;
-  align-items: center;
   padding-right: 10px;
   padding-left: 10px;
 }
 
-.photo {
-  margin-right: 10px;
-}
-
 .right-margin {
   margin-right: 20px;
-}
-
-.description {
-  text-align: justify;
 }
 
 .about-me-list {

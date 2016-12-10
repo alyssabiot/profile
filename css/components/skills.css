@@ -1,7 +1,11 @@
-.skill-img {
-  height: 100px;
+.skills li {
+  background-color: rgba(109,157,197, 0.5);
+  border-radius: 5px;
+  padding: 3px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
-.logos {
-  margin: 10px 10px 0px 10px;
+.skills ul {
+  margin: 10px;
 }

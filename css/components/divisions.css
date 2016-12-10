@@ -1,14 +1,13 @@
 .division {
-  padding: 10px;
   margin-top: 10px;
 }
 
 h4 {
-  background-color: rgba(101, 128, 135, 0.8);
+  border-bottom: 1px solid #807A9F;
   padding: 10px;
-  border-radius: 2px;
-  color: white;
+  color: #807A9F;
   margin: 0;
+  font-weight: bold;
 }
 
 .detailed-list {
