@@ -1,11 +1,5 @@
-.profile-header-wrapper {
-  background: #EFF1F3;
-  margin-bottom: 10px;
-}
-
 .profile-header-infos {
-  padding: 40px 20px;
-  color: #51497B;
+  padding: 0px 20px;
 }
 
 .profile-header-infos h1 {
@@ -24,8 +18,9 @@
 .profile {
   display: flex;
   align-items: center;
+  padding: 30px 40px 30px 40px;
 }
 
 .profile-header-picture {
-  padding: 10px;
+  padding-right: 10px;
 }
