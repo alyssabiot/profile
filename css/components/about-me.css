@@ -18,3 +18,7 @@
   color: white;
   font-weight: bolder;
 }
+
+.about-me ul {
+  line-height: 2em;
+}
